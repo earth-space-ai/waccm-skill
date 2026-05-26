@@ -2,10 +2,19 @@
 
 Progressive-disclosure skill for the Whole Atmosphere Community Climate Model (WACCM), a configuration of CAM in CESM that extends to the lower thermosphere with interactive chemistry.
 
-> **WACCM is not a separate repo.** It lives inside [ESCOMP/CAM](https://github.com/ESCOMP/CAM). This skill documents the WACCM-specific compsets, chemistry, dynamics, and output. For build mechanics, use [cam-skill](https://github.com/Earth-Space-Modeling-skills/cam-skill) or [cesm-skill](https://github.com/Earth-Space-Modeling-skills/cesm-skill).
+> **WACCM is not a separate repo.** It lives inside [ESCOMP/CAM](https://github.com/ESCOMP/CAM). This skill documents the WACCM-specific compsets, chemistry, dynamics, and output. For build mechanics, use [cam-skill](https://github.com/earth-space-ai/cam-skill) or [cesm-skill](https://github.com/earth-space-ai/cesm-skill).
 
 > **Skill author:** Koutian Wu (ktwu01@gmail.com)
 > **Skill version:** 0.1.0-scaffold
+
+> ⚠️ **Disclaimer — please read before using this skill.**
+> This skill is **not a gold-standard reference**. It is a helper that lowers
+> the barrier for new users to **get their hands dirty** with the model. AI
+> agents (and the humans drafting this material) make mistakes; commands, file
+> paths, namelist options, and physics explanations here can be wrong,
+> incomplete, or out of date. **Always cross-check with the official model
+> documentation, the source code, and a human expert before trusting any
+> output for research, publication, or operational use.**
 
 ## What This Is
 
@@ -17,9 +26,9 @@ Scaffold (v0.1.0-scaffold). Source-grounded routing verified against CAM source 
 
 ## Related skills in this org
 
-- [cam-skill](https://github.com/Earth-Space-Modeling-skills/cam-skill)
-- [cesm-skill](https://github.com/Earth-Space-Modeling-skills/cesm-skill)
-- [waccmx-skill](https://github.com/Earth-Space-Modeling-skills/waccmx-skill)
+- [cam-skill](https://github.com/earth-space-ai/cam-skill)
+- [cesm-skill](https://github.com/earth-space-ai/cesm-skill)
+- [waccmx-skill](https://github.com/earth-space-ai/waccmx-skill)
 
 ## License
 
